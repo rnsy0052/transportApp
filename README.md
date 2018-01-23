@@ -1,1 +1,1 @@
-This project is made by Mohit Kumar and
+Development branch for adding stable features
