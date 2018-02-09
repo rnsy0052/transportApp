@@ -1,5 +1,6 @@
 package com.example.seemkay.seemotransport;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -26,5 +27,10 @@ public class MainActivity extends AppCompatActivity {
         username = (EditText)findViewById(R.id.username);
         password = (EditText)findViewById(R.id.password);
 //        Log.d("Debug",username.getText()+""+password.getText());
+    }
+
+    public void register(View view) {
+        Intent intent = new Intent(MainActivity.this,RegisterActivity.class);
+        startActivity(intent);
     }
 }
